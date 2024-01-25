@@ -13,7 +13,7 @@ public class MainFrame extends JFrame {
 
     public MainFrame() throws HeadlessException {
         this.Commands = new HashMap<>();
-        setTitle("software/ulpgc/ImageViewer");
+        setTitle("ImageViewer");
         setSize(1280,720);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
